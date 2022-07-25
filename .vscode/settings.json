@@ -1,0 +1,10 @@
+{
+    "terminal.integrated.env.windows": {
+        // 放前头,避免别的版本gcc影响
+        "PATH":"${workspaceFolder}/build/extlib/bin;C:\\Strawberry\\c\\bin;C:\\Strawberry\\perl\\bin;C:\\Strawberry\\perl\\site\\bin;${env:PATH}",
+        "PERL5LIB":"${workspaceFolder}/lib;${workspaceFolder}/build/extlib/lib/perl5"
+    },
+    "cmake.buildEnvironment": {
+        "PATH": "${workspaceFolder}/build/extlib/bin;C:\\Strawberry\\c\\bin;C:\\Strawberry\\perl\\bin;C:\\Strawberry\\perl\\site\\bin;${env:PATH}"
+    },
+}

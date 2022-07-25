@@ -1,0 +1,4 @@
+build
+build/*
+share/musicbase-schema
+share/musicbase-schema.db

@@ -1,0 +1,33 @@
+{
+   "belongs_to" : {
+      "fetch" : 0
+   },
+   "sets" : [
+      {
+         "quantity" : "all",
+         "class" : "Artist"
+      },
+      {
+         "quantity" : "all",
+         "class" : "Country"
+      },
+      {
+         "quantity" : "all",
+         "class" : "ArtistCd"
+      },
+      {
+         "quantity" : "all",
+         "class" : "Cd"
+      },
+      {
+         "class" : "Track",
+         "quantity" : "all"
+      }
+   ],
+   "might_have" : {
+      "fetch" : 0
+   },
+   "has_many" : {
+      "fetch" : 0
+   }
+}
